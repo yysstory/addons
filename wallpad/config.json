@@ -38,8 +38,8 @@
     }
   },
   "schema": {
-    "model":"list(commax|samsung|daelim|hyundai)",
-    "type": "list(serial|socket)",
+    "model":"list(commax|samsung|daelim|hyundai|ezvill)",
+    "type": "list(serial|socket|mqtt)",
     "sendDelay": "int",
     "serial":{
       "port": "str?",
